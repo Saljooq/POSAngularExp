@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-log-in',
+  templateUrl: './log-in.component.html',
+  styleUrls: ['./log-in.component.css']
 })
-export class AppComponent {
+
+export class LogInComponent {
   title: string = '';
 
   upper(){

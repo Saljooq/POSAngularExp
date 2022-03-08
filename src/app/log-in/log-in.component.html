@@ -1,0 +1,17 @@
+<span class="p-float-label">
+    <input id="in_title" type="text" [(ngModel)]="title" pInputText >
+    <label for="in_title">Title</label>
+  </span>
+  <br>
+  <br>
+  <span class="p-float-label">
+    <input id="in_title" type="password"  pInputText >
+    <label for="in_title">Password</label>
+  </span>
+  <br>
+  
+  <br>
+  <button type="button" pButton label="Log in" (click)="upper()" routerLink="/dragAndDrop"></button>
+  <p >{{title}}</p>
+  <br> 
+  
