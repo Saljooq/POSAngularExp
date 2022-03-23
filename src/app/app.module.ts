@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {TabMenuModule} from 'primeng/tabmenu';
 import { AppComponent } from './app.component';
 import {ButtonModule} from 'primeng/button';
 import {InputTextModule} from 'primeng/inputtext';
@@ -22,7 +22,8 @@ import { LogInComponent } from './log-in/log-in.component';
     InputTextModule,
     FormsModule,
     DragDropModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
